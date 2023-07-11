@@ -50,13 +50,15 @@
 .botoes{
     display: flex;
     margin: 0 0.5rem;
-    
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-around;
 }
 
-.botoes__item{
-
+.botoes__item {
+  max-width: 2.5rem;
     
-    
+   
 }
 
 .botoes__ancora{
@@ -67,6 +69,7 @@
     padding: 1rem 1.75rem;
     display: flex;
     align-items: center;
-
-     
+}
+.card__avaliacao{
+    max-width: 7rem;
 }
